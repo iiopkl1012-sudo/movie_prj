@@ -1,9 +1,15 @@
 package main;
 
 import movie.*;
+import Login.Login5;
 
 public class Main {
     public static void main(String[] args) {
+
+        // 로그인 기능 실행
+        Login5 login = new Login5();
+        login.doLogin();
+
         MovieList movieList = new MovieList();
         Reservation reservation = new Reservation();
 
